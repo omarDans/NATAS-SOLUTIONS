@@ -6,11 +6,14 @@
 - So lets dive into the function my_session_start() ( this is the important stuff ). As you can see this is checking if PHPSESSID exists in the cookie and if it is a valid ID ( only needs to be a number to be a valid ID ).
 - If everything is ok its going to check if 'admin' is in \$_SESSION variable ( variable that generates in the function session_start(), see: https://www.php.net/manual/es/reserved.variables.session.php) if its not, which means that we didnt enter as admin, its going to set \$_SESSION['admin'] = 0 which means that us dont get password, bad.
 - Lets try to login in the webpage and see what PHPSESSID do we get:
-- [IMAGE HERE]
-- [IMAGE HERE]
+- ![18](https://github.com/user-attachments/assets/e1a00350-2d6d-4e2e-8349-eeeb9a8b9e7b)
+
+- ![18_2](https://github.com/user-attachments/assets/48192f3d-a8b7-45a9-a842-7422a7e4a11e)
+
 So they tell us that we logged in as a regular user bla bla bla ok, i already know i didnt enter as admin yeah...And we receive the PHPSESSID 264. Why is that? This is thanks to this line of code: `session_id(createID($_REQUEST["username"]));`
 - This is creating a random ID between 1 and 640 for my previously inputed username ( see CreateID() function ). The problem here is that the amount of ID are very low ( $maxid = 640 ) so, knowing that there are only 640 posibilities we can check all one by one and eventually we are going to hit the Session ID for admin.
 - OK, easy, another brute force script, execute with: `python main.py`
+- ![18_3](https://github.com/user-attachments/assets/d1a0fa8a-4d33-4b38-8534-3b11c8d3ea84)
 
 By the way, this time i added threading, which is going to make the cracking amazingly faster. The more amount of workers you add, the faster it is.
 
