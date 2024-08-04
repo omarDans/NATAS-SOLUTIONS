@@ -17,4 +17,4 @@ SELECT * from users where username="" OR 1=1
 - And this query means that is going to retrieve everything ( '*' ) from the table 'users' where the username is "" or if 1=1, i think everyone agreeds that 1 is in fact equal to 1 so its going to get absolutely all usernames from the 'users' table
 
 - Coming back to the php code, this only checks if the databse is sending info back, if the number of rows is greater than 0 we get the natas15 password.
-- [IMAGE HERE]
+- ![14](https://github.com/user-attachments/assets/7b8eb657-c029-4527-84b9-5bcdde2e0618)
