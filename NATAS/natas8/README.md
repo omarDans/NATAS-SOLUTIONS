@@ -10,7 +10,13 @@
 
 - You can use Cyberchef for this (https://gchq.github.io/CyberChef/) or you can use my python script for comfort
 - execute with: `python main.py`
-- [IMAGE HERE]
+- ![8](https://github.com/user-attachments/assets/7233c2c8-f601-4235-8023-98db4eb3e50d)
+
 
 - Once we get the secret key, we input it and we will get the password:
-- [IMAGE HERE]
+- ![8_2](https://github.com/user-attachments/assets/5e9965b3-11a9-4797-bf90-822bff5a8b4e)
+
+
+## Python install
+- for linux: https://docs.python-guide.org/starting/install3/linux/
+- for windows: https://www.python.org/downloads/windows/
