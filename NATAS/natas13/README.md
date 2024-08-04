@@ -7,12 +7,15 @@
 
 - So if we create a file with the first 4 bytes "\xFF\xD8\xFF\xE0" and then php code we can do the same thing as before in natas12.
 - Execute the python script with: `python bypassExif.py`
-- [IMAGE HERE]
+- ![13](https://github.com/user-attachments/assets/b2b06e57-3d2c-49d5-af70-dee80a0591f1)
+
 - This script is going to create a payload.php file that if we upload to the website it's going to execute the file_get_contents() php function to read the content of the file /etc/natas_webpass/natas14 and get the natas14 password.
 - ¡We have to change the random filname that generates when we upload the file!
-- [IMAGE HERE]
+- ![13_2](https://github.com/user-attachments/assets/7c631175-e308-40ca-8956-3d2cea02cf9b)
+
 - And then go to the uploaded file and see the password :D
-- [IMAGE HERE]
+- ![13_3](https://github.com/user-attachments/assets/3f8f17b8-b4c5-4d7e-91b7-e82ea65f977f)
+
 
 ## Python install
 
