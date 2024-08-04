@@ -18,8 +18,10 @@
 - Easy Cookie.
 
 - ### Of course my friend i created the script for automating this :)
-- [IMAGE HERE]
-- [IMAGE HERE]
+- ![11](https://github.com/user-attachments/assets/6bcdcb23-6f8d-4374-b940-782020b453cb)
+
+- ![11_2](https://github.com/user-attachments/assets/97bce3c4-20c1-47e5-ad1c-2380dbca882e)
+
 ## Script Execution
 - Execute with `php main.php`
 - in linux you can simply install with: `sudo apt-get install php`
