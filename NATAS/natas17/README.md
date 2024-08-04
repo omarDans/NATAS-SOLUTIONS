@@ -16,7 +16,8 @@ This causes the database to sleep for 1 second, so we are going to receive the r
 - The only thing new here is the EXISTS() function, this only checks if the output of the query its not returning null.
 - So know, in the python script im checking if the response of the server has been delayed 1 or more seconds. The rest of the script is also the same the previous ones.
 - So know we only have to execute the python script: `python main.py`
-- [IMAGE HERE]
+- ![17](https://github.com/user-attachments/assets/51e66051-6f2d-438f-8cfa-1b5a6c06de6f)
+
 
 - You should be aware that if you are not getting a password with length of 32 characters, the passowrd isnt't right. Dont blame my script, blame you internet connection or overthewire.org servers ( but probably your internet connection ).
 ## Python install
