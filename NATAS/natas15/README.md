@@ -7,7 +7,8 @@
 'SELECT * from users where username="natas16" and password LIKE BINARY "a%" #"'
 This basically what is doing is checking if the password for user natas16, inside the 'users' table,starts with the character "a". You see the point? If we create a programa that test all posible characters one by one we can get the password for natas16
 - It's going to be very long to explain the code here step by step but basically what it does is send a POST request testing the characters one by one and if it founds the "exists" string in the response it will save that character into 'filtered_chars' variable ( this is for optimization purposes, it will make the password cracking faster if we know first the characters that are in the password ) then it will start to crack the passowrd doing the same thing but concatenating the characters that are correct.
-- ![Uploading 15.PNG…]()
+- ![15](https://github.com/user-attachments/assets/e1bbc21d-2af1-403b-93a7-16e73c51104c)
+
 
 - Execute the python code with: `python main.py`
 
