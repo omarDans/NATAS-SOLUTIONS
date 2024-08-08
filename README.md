@@ -5,7 +5,6 @@ Natas solutions ( overthewire.org )
  
 ## Levels left:
 
-- natas20
 - natas21
 - natas22
 - natas23
