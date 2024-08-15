@@ -5,7 +5,8 @@
 - The second php script checks if 'revelio' param has been sent throught a GET request and then it will print the natas23 credentials if it was true.
 - The trick here is that you can't send the request through the browser, you need to send the raw request and ignore external headers (that's what i understood, i didnt understand it fully, i just looked around, saw curl somewhere, tried it and worked).
 - Using curl you can do that so you can use: `curl -u natas22:d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz http://natas22.natas.labs.overthewire.org?revelio`
-- [IMAGE HERE]
+- ![22](https://github.com/user-attachments/assets/601a39c2-28f4-477f-9625-76b255b7c637)
+
 - And that's it, you will retrieve the credentials for natas23, easy.
 
 *Some times the credentials for the levels change, remember to change the password on the curl command if that's the case*
