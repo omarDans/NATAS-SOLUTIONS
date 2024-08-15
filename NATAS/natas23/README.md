@@ -5,4 +5,4 @@
 - Ok jokes a part, at first this looked weird but its SO STUPID solution. This is php and looks like you can validate the '> 10' comparison if you put the number at first (looks like php doesnt care if it's a integer or a string...).
 - If you enter: "11iloveyou" this will return true and will give us the natas24 credentials because it will check if "iloveyou" exists (which it's true) and then if 11 is greater than 10 (which it's also true)
 - The problem if you enter "iloveyou11" is that the second comparison will fail and return false because if the string doesnt start with a number php will automatically transform the string to '0' for the numeric comparison
-- [IMAGE HERE]
+- ![23](https://github.com/user-attachments/assets/4364fdb7-7c81-4e20-b50b-aa728f2f9511)
